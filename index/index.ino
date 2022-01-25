@@ -109,8 +109,8 @@ void loop()
         startMillis = millis();
         portaoEmMovimento = false;
         //Se o carro voltou a entrar em movimento, a porta da garagem voltará a abrir-se
-        Direction = 0;
-        stepper(Direction);
+        //Direction = 0;
+        //stepper(Direction);
     }
 
     if (distance >= 100 && distance <= maximumRange){//O carro encontra-se entre os 100 e 200 cm
